@@ -90,5 +90,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnDeogen.setOnClickListener {
             val deogen = Intent(this, Deogen_ESP_Activity::class.java)
             startActivity(deogen)}
+
+        val BtnEnte = findViewById<AppCompatButton>(R.id.Ente)
+        BtnEnte.setOnClickListener {
+            val ente = Intent(this, Ente_ESP_Activity::class.java)
+            startActivity(ente)}
     }
 }
