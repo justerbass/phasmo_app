@@ -55,5 +55,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnEspectro.setOnClickListener {
             val espectro = Intent(this, Espectro_ESP_Activity::class.java)
             startActivity(espectro)}
+
+        val BtnBanshee = findViewById<AppCompatButton>(R.id.Banshee)
+        BtnBanshee.setOnClickListener {
+            val banshee = Intent(this, Banshee_ESP_Activity::class.java)
+            startActivity(banshee)}
     }
 }
