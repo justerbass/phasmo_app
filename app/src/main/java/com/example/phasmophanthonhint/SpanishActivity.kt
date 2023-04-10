@@ -50,5 +50,45 @@ class SpanishActivity : AppCompatActivity() {
         BtnMoroi.setOnClickListener {
             val moroi = Intent(this, Moroi_ESP_Activity::class.java)
             startActivity(moroi)}
+
+        val BtnEspectro = findViewById<AppCompatButton>(R.id.Espectro)
+        BtnEspectro.setOnClickListener {
+            val espectro = Intent(this, Espectro_ESP_Activity::class.java)
+            startActivity(espectro)}
+
+        val BtnBanshee = findViewById<AppCompatButton>(R.id.Banshee)
+        BtnBanshee.setOnClickListener {
+            val banshee = Intent(this, Banshee_ESP_Activity::class.java)
+            startActivity(banshee)}
+
+        val BtnRevenant = findViewById<AppCompatButton>(R.id.Revenant)
+        BtnRevenant.setOnClickListener {
+            val revenant = Intent(this, Revenant_ESP_Activity::class.java)
+            startActivity(revenant)}
+
+        val BtnYurei = findViewById<AppCompatButton>(R.id.Yurei)
+        BtnYurei.setOnClickListener {
+            val yurei = Intent(this, Yurei_ESP_Activity::class.java)
+            startActivity(yurei)}
+
+        val BtnHantu = findViewById<AppCompatButton>(R.id.Hantu)
+        BtnHantu.setOnClickListener {
+            val hantu = Intent(this, Hantu_ESP_Activity::class.java)
+            startActivity(hantu)}
+
+        val BtnOnryo = findViewById<AppCompatButton>(R.id.Onryo)
+        BtnOnryo.setOnClickListener {
+            val onryo = Intent(this, Onryo_ESP_Activity::class.java)
+            startActivity(onryo)}
+
+        val BtnObake = findViewById<AppCompatButton>(R.id.Obake)
+        BtnObake.setOnClickListener {
+            val obake = Intent(this, Obake_ESP_Activity::class.java)
+            startActivity(obake)}
+
+        val BtnDeogen = findViewById<AppCompatButton>(R.id.Deogen)
+        BtnDeogen.setOnClickListener {
+            val deogen = Intent(this, Deogen_ESP_Activity::class.java)
+            startActivity(deogen)}
     }
 }
