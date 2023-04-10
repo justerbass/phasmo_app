@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/hoja"
+    tools:context=".Esp.Espiritu_ESP_Activity">
+
+    <TextView
+        android:id="@+id/title_phanton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="Espíritu"
+        android:textColor="@color/black"
+        android:textSize="40sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/Prueba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="Pruebas"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_phanton"
+        android:drawableStart="@drawable/ballot"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/prueba_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Medidor EMF 5"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/Prueba"
+        android:drawableStart="@drawable/check"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/prueba_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Spirit Box"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prueba_1"
+        android:drawableStart="@drawable/check"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:id="@+id/prueba_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/pacifico"
+        android:text="Escritura Fantasma"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prueba_2"
+        android:drawableStart="@drawable/check"
+        android:drawablePadding="10dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ataque"
+        android:text=" Ataque"
+        android:textSize="25sp"
+        android:fontFamily="@font/homemade_regular"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/prueba_3"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/arrow"
+        />
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bajo el 50% de"
+        app:layout_constraintTop_toBottomOf="@id/ataque"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="50dp"
+        android:fontFamily="@font/homemade_regular"
+        android:textColor="@color/black"
+        android:id="@+id/ataque_1"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cordura (grupal)"
+        app:layout_constraintTop_toBottomOf="@id/ataque_1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/homemade_regular"
+        android:textColor="@color/black"
+        android:id="@+id/ataque_2"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/speed"
+        android:text=" Velocidad"
+        android:textSize="25sp"
+        android:fontFamily="@font/homemade_regular"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toEndOf="@id/ataque"
+        app:layout_constraintTop_toBottomOf="@id/prueba_3"
+        android:layout_margin="20dp"
+        android:drawableStart="@drawable/run"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Velocidad Normal"
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@id/speed"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/homemade_regular"
+        android:textColor="@color/black"
+        android:id="@+id/speed_1"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Característica Especial"
+        android:fontFamily="@font/homemade_regular"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_2"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="20dp"
+        android:id="@+id/special"
+        />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sí le pasas con un incienso se tardará 3 minutos en volver a atacar, su comportamiento es irregular de una  partida a otra."
+        android:fontFamily="@font/pacifico"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toBottomOf="@id/special"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="23sp"
+        android:layout_marginStart="20dp"
+        />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
