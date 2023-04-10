@@ -35,5 +35,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnYokai.setOnClickListener {
             val yokai = Intent(this, Yokai_ESP_Activity::class.java)
             startActivity(yokai)}
+
+        val BtnMyling = findViewById<AppCompatButton>(R.id.Myling)
+        BtnMyling.setOnClickListener {
+            val myling = Intent(this, Myling_ESP_Activity::class.java)
+            startActivity(myling)}
     }
 }
