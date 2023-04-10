@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
+import com.example.phasmophanthonhint.Esp.Demonio_ESP_Activity
 import com.example.phasmophanthonhint.Esp.Espiritu_ESP_Activity
 import com.example.phasmophanthonhint.Esp.Pesadilla_ESP_Activity
 import com.example.phasmophanthonhint.Esp.Poletr_ESP_Activity
@@ -27,5 +28,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnPesadilla.setOnClickListener {
             val pesadilla = Intent(this, Pesadilla_ESP_Activity::class.java)
             startActivity(pesadilla)}
+
+        val BtnDemonio = findViewById<AppCompatButton>(R.id.Demonio)
+        BtnDemonio.setOnClickListener {
+            val demonio = Intent(this, Demonio_ESP_Activity::class.java)
+            startActivity(demonio)}
     }
 }
