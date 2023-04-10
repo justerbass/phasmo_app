@@ -4,10 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
-import com.example.phasmophanthonhint.Esp.Demonio_ESP_Activity
-import com.example.phasmophanthonhint.Esp.Espiritu_ESP_Activity
-import com.example.phasmophanthonhint.Esp.Pesadilla_ESP_Activity
-import com.example.phasmophanthonhint.Esp.Poletr_ESP_Activity
+import com.example.phasmophanthonhint.Esp.*
 
 class SpanishActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -33,5 +30,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnDemonio.setOnClickListener {
             val demonio = Intent(this, Demonio_ESP_Activity::class.java)
             startActivity(demonio)}
+
+        val BtnYokai = findViewById<AppCompatButton>(R.id.Yokai)
+        BtnYokai.setOnClickListener {
+            val yokai = Intent(this, Yokai_ESP_Activity::class.java)
+            startActivity(yokai)}
     }
 }
