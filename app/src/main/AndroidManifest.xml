@@ -12,7 +12,7 @@
         android:theme="@style/Theme.PhasmoPhanthonHint"
         tools:targetApi="31">
         <activity
-            android:name=".Moroi_ESP_Activity"
+            android:name=".Esp.Moroi_ESP_Activity"
             android:exported="false" />
         <activity
             android:name=".Esp.Raiju_ESP_Activity"
