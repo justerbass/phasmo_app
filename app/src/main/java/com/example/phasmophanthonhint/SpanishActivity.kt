@@ -70,5 +70,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnYurei.setOnClickListener {
             val yurei = Intent(this, Yurei_ESP_Activity::class.java)
             startActivity(yurei)}
+
+        val BtnHantu = findViewById<AppCompatButton>(R.id.Hantu)
+        BtnHantu.setOnClickListener {
+            val hantu = Intent(this, Hantu_ESP_Activity::class.java)
+            startActivity(hantu)}
     }
 }
