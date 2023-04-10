@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hoja"
-    tools:context=".Esp.Espiritu_ESP_Activity">
+    tools:context=".Esp.Poletr_ESP_Activity">
 
     <TextView
         android:id="@+id/title_phanton"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Espíritu"
+        android:text="Poltergeist"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Medidor EMF 5"
+        android:text="Spirit Box"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Spirit Box"
+        android:text="Huellas Dactilares"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,7 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/pacifico"
-        android:text="Sí le pasas con un incienso se tardará 3 minutos en volver a atacar, su comportamiento es irregular de una  partida a otra."
+        android:text="Lanza los objetos muy lejos y varios a la vez."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
