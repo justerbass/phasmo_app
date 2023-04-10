@@ -45,5 +45,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnRaiju.setOnClickListener {
             val raiju = Intent(this, Raiju_ESP_Activity::class.java)
             startActivity(raiju)}
+
+        val BtnMoroi = findViewById<AppCompatButton>(R.id.Moroi)
+        BtnMoroi.setOnClickListener {
+            val moroi = Intent(this, Moroi_ESP_Activity::class.java)
+            startActivity(moroi)}
     }
 }
