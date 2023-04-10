@@ -40,5 +40,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnMyling.setOnClickListener {
             val myling = Intent(this, Myling_ESP_Activity::class.java)
             startActivity(myling)}
+
+        val BtnRaiju = findViewById<AppCompatButton>(R.id.Raiju)
+        BtnRaiju.setOnClickListener {
+            val raiju = Intent(this, Raiju_ESP_Activity::class.java)
+            startActivity(raiju)}
     }
 }

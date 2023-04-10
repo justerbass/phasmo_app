@@ -118,7 +118,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="electrónico en su habitación,"
+        android:text="electrónico en su "
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -130,11 +130,23 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="en caso contrario bajo 50%"
+        android:text="habitación, en caso contrario"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque_3" />
+
+    <TextView
+        android:id="@+id/ataque_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="bajo 50% de cordura"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_4" />
 
     <TextView
         android:id="@+id/speed"
