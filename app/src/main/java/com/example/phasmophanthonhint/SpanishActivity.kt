@@ -80,5 +80,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnOnryo.setOnClickListener {
             val onryo = Intent(this, Onryo_ESP_Activity::class.java)
             startActivity(onryo)}
+
+        val BtnObake = findViewById<AppCompatButton>(R.id.Obake)
+        BtnObake.setOnClickListener {
+            val obake = Intent(this, Obake_ESP_Activity::class.java)
+            startActivity(obake)}
     }
 }
