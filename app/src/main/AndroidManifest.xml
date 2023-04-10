@@ -12,6 +12,9 @@
         android:theme="@style/Theme.PhasmoPhanthonHint"
         tools:targetApi="31">
         <activity
+            android:name=".Pesadilla_ESP_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Esp.Poletr_ESP_Activity"
             android:exported="false" />
         <activity
