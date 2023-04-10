@@ -65,5 +65,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnRevenant.setOnClickListener {
             val revenant = Intent(this, Revenant_ESP_Activity::class.java)
             startActivity(revenant)}
+
+        val BtnYurei = findViewById<AppCompatButton>(R.id.Yurei)
+        BtnYurei.setOnClickListener {
+            val yurei = Intent(this, Yurei_ESP_Activity::class.java)
+            startActivity(yurei)}
     }
 }
