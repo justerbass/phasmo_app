@@ -23,7 +23,7 @@
         android:id="@+id/Prueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
         android:drawableStart="@drawable/ballot"
         android:drawablePadding="10dp"
         android:fontFamily="@font/homemade_regular"
