@@ -60,5 +60,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnBanshee.setOnClickListener {
             val banshee = Intent(this, Banshee_ESP_Activity::class.java)
             startActivity(banshee)}
+
+        val BtnRevenant = findViewById<AppCompatButton>(R.id.Revenant)
+        BtnRevenant.setOnClickListener {
+            val revenant = Intent(this, Revenant_ESP_Activity::class.java)
+            startActivity(revenant)}
     }
 }
