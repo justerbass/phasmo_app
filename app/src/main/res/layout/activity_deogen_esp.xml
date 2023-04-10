@@ -156,7 +156,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="De este fantasma no te puedes esconder, siempre dará spirit box, tiene una respuesta especial en spirit box (33% de probabilidad), se acerca rápidamente hacia ti hasta que alcanza un rango y se ralentiza."
+        android:text="De este fantasma no te puedes esconder, siempre dará spirit box, tiene una respuesta especial en spirit box, se acerca rápidamente hacia ti hasta que alcanza un rango y se ralentiza."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
