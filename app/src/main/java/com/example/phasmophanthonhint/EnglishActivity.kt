@@ -36,5 +36,9 @@ class EnglishActivity : AppCompatActivity() {
             val banshee = Intent( this, Banshee_ENG_Activity::class.java)
             startActivity(banshee)}
 
+        val BtnJinn = findViewById<AppCompatButton>(R.id.Jims)
+        BtnJinn.setOnClickListener {
+            val jinn = Intent( this, Jinn_ENG_Activity::class.java)
+            startActivity(jinn)}
     }
 }
