@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hoja"
-    tools:context=".Eng.Espiritu_ENG_Activity">
+    tools:context=".Eng.Wraith_ENG_Activity">
 
     <TextView
         android:id="@+id/title_phanton"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" Spirit"
+        android:text=" Wraith"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +69,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Gost Writing"
+        android:text="DOTS Proyector"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -155,7 +155,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/pacifico"
-        android:text="if you pass it with an incense it takes 3 minutes to attack again, its behavior is irregular from one game to another."
+        android:text="It does not leave footprints in the salt, it changes rooms instantly."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"

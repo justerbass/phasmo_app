@@ -12,6 +12,12 @@
         android:theme="@style/Theme.PhasmoPhanthonHint"
         tools:targetApi="31">
         <activity
+            android:name=".Eng.Wraith_ENG_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Eng.Espiritu_ENG_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Esp.Thaye_ESP_Activity"
             android:exported="false" />
         <activity
@@ -79,9 +85,6 @@
             android:exported="false" />
         <activity
             android:name=".Esp.Poletr_ESP_Activity"
-            android:exported="false" />
-        <activity
-            android:name=".Eng.Espiritu_ENG_Activity"
             android:exported="false" />
         <activity
             android:name=".Esp.Espiritu_ESP_Activity"
