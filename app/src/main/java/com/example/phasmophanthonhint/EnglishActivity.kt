@@ -65,5 +65,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnYurei.setOnClickListener {
             val yurei = Intent( this, Yurei_ENG_Activity::class.java)
             startActivity(yurei)}
+
+        val BtnOni = findViewById<AppCompatButton>(R.id.Onis)
+        BtnOni.setOnClickListener {
+            val oni = Intent( this, Oni_ENG_Activity::class.java)
+            startActivity(oni)}
     }
 }
