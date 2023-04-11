@@ -4,9 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
-import com.example.phasmophanthonhint.Eng.Espiritu_ENG_Activity
-import com.example.phasmophanthonhint.Eng.Phanton_ENG_Activity
-import com.example.phasmophanthonhint.Eng.Wraith_ENG_Activity
+import com.example.phasmophanthonhint.Eng.*
 
 class EnglishActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -28,5 +26,19 @@ class EnglishActivity : AppCompatActivity() {
             val phanton = Intent( this, Phanton_ENG_Activity::class.java)
             startActivity(phanton)}
 
+        val BtnPoltergeist = findViewById<AppCompatButton>(R.id.Poltergeists)
+        BtnPoltergeist.setOnClickListener {
+            val poltergeist = Intent( this, Poltergeist_ENG_Activity::class.java)
+            startActivity(poltergeist)}
+
+        val BtnBanshee = findViewById<AppCompatButton>(R.id.Banshees)
+        BtnBanshee.setOnClickListener {
+            val banshee = Intent( this, Banshee_ENG_Activity::class.java)
+            startActivity(banshee)}
+
+        val BtnJinn = findViewById<AppCompatButton>(R.id.Jims)
+        BtnJinn.setOnClickListener {
+            val jinn = Intent( this, Jinn_ENG_Activity::class.java)
+            startActivity(jinn)}
     }
 }
