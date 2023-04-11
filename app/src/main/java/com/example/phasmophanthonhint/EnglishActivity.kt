@@ -95,5 +95,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnOnryo.setOnClickListener {
             val onryo = Intent( this, Onryo_ENG_Activity::class.java)
             startActivity(onryo)}
+
+        val BtnTwins = findViewById<AppCompatButton>(R.id.Gemeloss)
+        BtnTwins.setOnClickListener {
+            val twins = Intent( this, Twins_ENG_Activity::class.java)
+            startActivity(twins)}
     }
 }
