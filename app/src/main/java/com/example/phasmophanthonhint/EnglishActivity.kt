@@ -40,5 +40,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnJinn.setOnClickListener {
             val jinn = Intent( this, Jinn_ENG_Activity::class.java)
             startActivity(jinn)}
+
+        val BtnMare = findViewById<AppCompatButton>(R.id.Pesadillas)
+        BtnMare.setOnClickListener {
+            val mare = Intent( this, Mare_ENG_Activity::class.java)
+            startActivity(mare)}
     }
 }
