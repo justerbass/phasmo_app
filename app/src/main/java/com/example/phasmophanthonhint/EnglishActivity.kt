@@ -90,5 +90,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnMyling.setOnClickListener {
             val myling = Intent( this, Myling_ENG_Activity::class.java)
             startActivity(myling)}
+
+        val BtnOnryo = findViewById<AppCompatButton>(R.id.Onryos)
+        BtnOnryo.setOnClickListener {
+            val onryo = Intent( this, Onryo_ENG_Activity::class.java)
+            startActivity(onryo)}
     }
 }
