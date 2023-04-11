@@ -105,5 +105,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnRaiju.setOnClickListener {
             val raiju = Intent( this, Raiju_ENG_Activity::class.java)
             startActivity(raiju)}
+
+        val BtnObake = findViewById<AppCompatButton>(R.id.Obakes)
+        BtnObake.setOnClickListener {
+            val obake = Intent( this, Obake_ENG_Activity::class.java)
+            startActivity(obake)}
     }
 }
