@@ -75,5 +75,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnYokai.setOnClickListener {
             val yokai = Intent( this, Yokai_ENG_Activity::class.java)
             startActivity(yokai)}
+
+        val BtnHantu = findViewById<AppCompatButton>(R.id.Hantus)
+        BtnHantu.setOnClickListener {
+            val hantu = Intent( this, Hantu_ENG_Activity::class.java)
+            startActivity(hantu)}
     }
 }
