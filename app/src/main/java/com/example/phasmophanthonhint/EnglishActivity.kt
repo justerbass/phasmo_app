@@ -60,5 +60,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnDemon.setOnClickListener {
             val demon = Intent( this, Demon_ENG_Activity::class.java)
             startActivity(demon)}
+
+        val BtnYurei = findViewById<AppCompatButton>(R.id.Yureis)
+        BtnYurei.setOnClickListener {
+            val yurei = Intent( this, Yurei_ENG_Activity::class.java)
+            startActivity(yurei)}
     }
 }
