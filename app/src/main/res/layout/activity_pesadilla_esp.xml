@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hoja"
-    tools:context=".Esp.Poletr_ESP_Activity">
+    tools:context=".Esp.Pesadilla_ESP_Activity">
 
     <TextView
         android:id="@+id/title_phanton"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Poltergeist"
+        android:text="Pesadilla"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Huellas Dactilares"
+        android:text="Orbes espexcctrales"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,9 +92,9 @@
         android:id="@+id/ataque_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Bajo el 50% de"
+        android:text="Bajo el 50% de cordura"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,13 +104,25 @@
         android:id="@+id/ataque_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="cordura (grupal)"
+        android:text="en habitación sin luz,"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque_1" />
+
+    <TextView
+        android:id="@+id/ataque_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="con luz bajo 40% de cordura"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_2" />
 
     <TextView
         android:id="@+id/speed"
@@ -141,21 +153,21 @@
         android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/homemade_regular"
         android:text="Característica Especial"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_2" />
+        app:layout_constraintTop_toBottomOf="@id/ataque_3" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Lanza los objetos muy lejos y varios a la vez."
+        android:text="Trata generalmente de apagar la luz tanto de la casa como de la habitación, pueden apagar las luces apenas se encienden, en ocasiones apagan varias luces a la vez, nunca encenderá una luz."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"

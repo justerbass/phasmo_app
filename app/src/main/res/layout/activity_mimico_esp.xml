@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hoja"
-    tools:context=".Esp.Poletr_ESP_Activity">
+    tools:context=".Esp.Mimico_ESP_Activity">
 
     <TextView
         android:id="@+id/title_phanton"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Poltergeist"
+        android:text=" Mimico"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -69,7 +69,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Escritura Fantasma"
+        android:text="Temperatura Heladas"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,9 +92,9 @@
         android:id="@+id/ataque_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="50dp"
+        android:layout_marginStart="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Bajo el 50% de"
+        android:text="ataca dependiendo "
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,13 +104,14 @@
         android:id="@+id/ataque_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="cordura (grupal)"
+        android:text="del fantasma copiado"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque_1" />
+
 
     <TextView
         android:id="@+id/speed"
@@ -129,19 +130,31 @@
         android:id="@+id/speed_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="40dp"
+        android:layout_marginEnd="60dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" Velocidad Normal"
+        android:text="velocidad del"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/speed" />
 
     <TextView
+        android:id="@+id/speed_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="fantasma copiado"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/speed_1" />
+
+    <TextView
         android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="5dp"
         android:fontFamily="@font/homemade_regular"
         android:text="Característica Especial"
         android:textColor="@color/black"
@@ -153,9 +166,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Lanza los objetos muy lejos y varios a la vez."
+        android:text="Imita a cualquier otro fantasma del juego incluyendo sus habilidades, cada 2 minutos puede cambiar al fantasma que está imitando, siempre aparecerán orbes, aunque no sea de sus pruebas."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
