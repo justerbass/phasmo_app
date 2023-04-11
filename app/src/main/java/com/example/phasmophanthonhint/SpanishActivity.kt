@@ -90,5 +90,45 @@ class SpanishActivity : AppCompatActivity() {
         BtnDeogen.setOnClickListener {
             val deogen = Intent(this, Deogen_ESP_Activity::class.java)
             startActivity(deogen)}
+
+        val BtnEnte = findViewById<AppCompatButton>(R.id.Ente)
+        BtnEnte.setOnClickListener {
+            val ente = Intent(this, Ente_ESP_Activity::class.java)
+            startActivity(ente)}
+
+        val BtnJinn = findViewById<AppCompatButton>(R.id.Jim)
+        BtnJinn.setOnClickListener {
+            val jinn = Intent(this, Jim_ESP_Activity::class.java)
+            startActivity(jinn)}
+
+        val BtnSombra = findViewById<AppCompatButton>(R.id.Sombra)
+        BtnSombra.setOnClickListener {
+            val sombra = Intent(this, Sombra_ESP_Activity::class.java)
+            startActivity(sombra)}
+
+        val BtnOni = findViewById<AppCompatButton>(R.id.Oni)
+        BtnOni.setOnClickListener {
+            val oni = Intent(this, Oni_ESP_Activity::class.java)
+            startActivity(oni)}
+
+        val BtnGoryo = findViewById<AppCompatButton>(R.id.Goryo)
+        BtnGoryo.setOnClickListener {
+            val goryo = Intent(this, Goryo_ESP_Activity::class.java)
+            startActivity(goryo)}
+
+        val BtnGemelos = findViewById<AppCompatButton>(R.id.Gemelos)
+        BtnGemelos.setOnClickListener {
+            val gemelos = Intent(this, Gemelos_ESP_Activity::class.java)
+            startActivity(gemelos)}
+
+        val BtnMimico = findViewById<AppCompatButton>(R.id.Mimico)
+        BtnMimico.setOnClickListener {
+            val mimico = Intent(this, Mimico_ESP_Activity::class.java)
+            startActivity(mimico)}
+
+        val BtnThaye = findViewById<AppCompatButton>(R.id.Thaye)
+        BtnThaye.setOnClickListener {
+            val thaye = Intent(this, Thaye_ESP_Activity::class.java)
+            startActivity(thaye)}
     }
 }
