@@ -85,5 +85,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnGoryo.setOnClickListener {
             val goryo = Intent( this, Goryo_ENG_Activity::class.java)
             startActivity(goryo)}
+
+        val BtnMyling = findViewById<AppCompatButton>(R.id.Mylings)
+        BtnMyling.setOnClickListener {
+            val myling = Intent( this, Myling_ENG_Activity::class.java)
+            startActivity(myling)}
     }
 }
