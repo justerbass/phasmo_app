@@ -1,12 +1,12 @@
 package com.example.phasmophanthonhint
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 import com.example.phasmophanthonhint.Eng.Espiritu_ENG_Activity
 import com.example.phasmophanthonhint.Eng.Phanton_ENG_Activity
 import com.example.phasmophanthonhint.Eng.Wraith_ENG_Activity
+
 
 class EnglishActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

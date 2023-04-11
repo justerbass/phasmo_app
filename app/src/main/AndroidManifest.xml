@@ -90,6 +90,9 @@
             android:name=".Esp.Poletr_ESP_Activity"
             android:exported="false" />
         <activity
+            android:name=".Eng.Espiritu_ENG_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Esp.Espiritu_ESP_Activity"
             android:exported="false" />
         <activity

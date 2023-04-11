@@ -12,5 +12,12 @@ class Espiritu_ENG_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_espiritu_eng)
+
+        /**
+        val BtnSpirit = findViewById<AppCompatButton>(R.id.Espiritus)
+        BtnSpirit.setOnClickListener {
+            val spirit = Intent( this, Espiritu_ENG_Activity::class.java)
+            startActivity(spirit)
+        }*/
     }
 }
