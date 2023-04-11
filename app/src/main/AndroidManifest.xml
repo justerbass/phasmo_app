@@ -12,6 +12,15 @@
         android:theme="@style/Theme.PhasmoPhanthonHint"
         tools:targetApi="31">
         <activity
+            android:name=".Eng.Goryo_ENG_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Eng.Hantu_ENG_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Eng.Yokai_ENG_Activity"
+            android:exported="false" />
+        <activity
             android:name=".Eng.Oni_ENG_Activity"
             android:exported="false" />
         <activity
