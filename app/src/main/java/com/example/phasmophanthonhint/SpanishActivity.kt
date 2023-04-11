@@ -125,5 +125,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnMimico.setOnClickListener {
             val mimico = Intent(this, Mimico_ESP_Activity::class.java)
             startActivity(mimico)}
+
+        val BtnThaye = findViewById<AppCompatButton>(R.id.Thaye)
+        BtnThaye.setOnClickListener {
+            val thaye = Intent(this, Thaye_ESP_Activity::class.java)
+            startActivity(thaye)}
     }
 }
