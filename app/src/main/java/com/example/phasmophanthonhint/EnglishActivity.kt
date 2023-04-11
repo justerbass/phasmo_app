@@ -100,5 +100,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnTwins.setOnClickListener {
             val twins = Intent( this, Twins_ENG_Activity::class.java)
             startActivity(twins)}
+
+        val BtnRaiju = findViewById<AppCompatButton>(R.id.Raijus)
+        BtnRaiju.setOnClickListener {
+            val raiju = Intent( this, Raiju_ENG_Activity::class.java)
+            startActivity(raiju)}
     }
 }
