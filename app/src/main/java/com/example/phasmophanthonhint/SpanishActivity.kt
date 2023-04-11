@@ -110,5 +110,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnOni.setOnClickListener {
             val oni = Intent(this, Oni_ESP_Activity::class.java)
             startActivity(oni)}
+
+        val BtnGoryo = findViewById<AppCompatButton>(R.id.Goryo)
+        BtnGoryo.setOnClickListener {
+            val goryo = Intent(this, Goryo_ESP_Activity::class.java)
+            startActivity(goryo)}
     }
 }
