@@ -8,5 +8,6 @@ class Wraith_ENG_Activity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_wraith_eng)
+
     }
 }

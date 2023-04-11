@@ -27,5 +27,6 @@ class EnglishActivity : AppCompatActivity() {
         BtnPhanton.setOnClickListener {
             val phanton = Intent( this, Phanton_ENG_Activity::class.java)
             startActivity(phanton)}
+
     }
 }
