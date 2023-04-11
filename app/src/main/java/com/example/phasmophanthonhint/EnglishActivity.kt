@@ -55,5 +55,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnShade.setOnClickListener {
             val shade = Intent( this, Shade_ENG_Activity::class.java)
             startActivity(shade)}
+
+        val BtnDemon = findViewById<AppCompatButton>(R.id.Demonios)
+        BtnDemon.setOnClickListener {
+            val demon = Intent( this, Demon_ENG_Activity::class.java)
+            startActivity(demon)}
     }
 }
