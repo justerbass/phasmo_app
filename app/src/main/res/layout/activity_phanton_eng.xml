@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/hoja"
-    tools:context=".Eng.Wraith_ENG_Activity">
+    tools:context=".Eng.Phanton_ENG_Activity">
 
     <TextView
         android:id="@+id/title_phanton"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" Wraith"
+        android:text=" Phanton"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -23,7 +23,7 @@
         android:id="@+id/Prueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_margin="20dp"
+        android:layout_marginStart="20dp"
         android:drawableStart="@drawable/ballot"
         android:drawablePadding="10dp"
         android:fontFamily="@font/homemade_regular"
@@ -41,7 +41,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="EMF Level 5"
+        android:text="Spirit Box"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Spirit Box"
+        android:text="Fingerprints"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -141,7 +141,7 @@
         android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:fontFamily="@font/homemade_regular"
         android:text="Special feature"
         android:textColor="@color/black"
@@ -155,12 +155,11 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/pacifico"
-        android:text="It does not leave footprints in the salt, it changes rooms instantly."
+        android:text="When taking a picture of it, it visually disappears in a demonstration, in hunting it spends more time invisible than visible, this ghost has the ability to follow a character for a while."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/special"
-        />
+        app:layout_constraintTop_toBottomOf="@id/special" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

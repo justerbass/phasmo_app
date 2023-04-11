@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.appcompat.widget.AppCompatButton
 import com.example.phasmophanthonhint.Eng.Espiritu_ENG_Activity
+import com.example.phasmophanthonhint.Eng.Phanton_ENG_Activity
 import com.example.phasmophanthonhint.Eng.Wraith_ENG_Activity
 
 class EnglishActivity : AppCompatActivity() {
@@ -21,5 +22,11 @@ class EnglishActivity : AppCompatActivity() {
         BtnWraith.setOnClickListener {
             val wraith = Intent( this, Wraith_ENG_Activity::class.java)
             startActivity(wraith)}
+
+        val BtnPhanton = findViewById<AppCompatButton>(R.id.Entes)
+        BtnPhanton.setOnClickListener {
+            val phanton = Intent( this, Phanton_ENG_Activity::class.java)
+            startActivity(phanton)}
+
     }
 }
