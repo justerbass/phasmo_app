@@ -115,5 +115,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnGoryo.setOnClickListener {
             val goryo = Intent(this, Goryo_ESP_Activity::class.java)
             startActivity(goryo)}
+
+        val BtnGemelos = findViewById<AppCompatButton>(R.id.Gemelos)
+        BtnGemelos.setOnClickListener {
+            val gemelos = Intent(this, Gemelos_ESP_Activity::class.java)
+            startActivity(gemelos)}
     }
 }
