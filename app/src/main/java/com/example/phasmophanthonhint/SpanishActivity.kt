@@ -95,5 +95,10 @@ class SpanishActivity : AppCompatActivity() {
         BtnEnte.setOnClickListener {
             val ente = Intent(this, Ente_ESP_Activity::class.java)
             startActivity(ente)}
+
+        val BtnJinn = findViewById<AppCompatButton>(R.id.Jim)
+        BtnJinn.setOnClickListener {
+            val jinn = Intent(this, Jim_ESP_Activity::class.java)
+            startActivity(jinn)}
     }
 }
