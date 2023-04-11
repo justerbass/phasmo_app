@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" Phanton"
+        android:text=" Raiju"
         android:textColor="@color/black"
         android:textSize="40sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -41,7 +41,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Spirit Box"
+        android:text="EMF Level 5"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -55,7 +55,7 @@
         android:drawableStart="@drawable/check"
         android:drawablePadding="10dp"
         android:fontFamily="@font/pacifico"
-        android:text="Fingerprints"
+        android:text="Ghost Orb"
         android:textColor="@color/black"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -92,9 +92,9 @@
         android:id="@+id/ataque_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Under 50% sanity"
+        android:text="below 65% sanity when"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
@@ -104,13 +104,49 @@
         android:id="@+id/ataque_2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="80dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="(group)"
+        android:text="there is an electronic"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque_1" />
+
+    <TextView
+        android:id="@+id/ataque_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="device in your room,"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_2" />
+
+    <TextView
+        android:id="@+id/ataque_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="below 50% sanity"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_3" />
+
+    <TextView
+        android:id="@+id/ataque_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="in other case"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_4" />
 
     <TextView
         android:id="@+id/speed"
@@ -129,13 +165,49 @@
         android:id="@+id/speed_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="80dp"
+        android:layout_marginEnd="30dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" Normal   Speed"
+        android:text="fast speed with"
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/speed" />
+
+    <TextView
+        android:id="@+id/speed_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="electronic objects on,"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/speed_1" />
+
+    <TextView
+        android:id="@+id/speed_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="normal speed"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/speed_2" />
+
+    <TextView
+        android:id="@+id/speed_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="40dp"
+        android:fontFamily="@font/homemade_regular"
+        android:text="without objects"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/speed_3" />
 
     <TextView
         android:id="@+id/special"
@@ -148,14 +220,14 @@
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_2" />
+        app:layout_constraintTop_toBottomOf="@id/ataque_5" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/pacifico"
-        android:text="When taking a picture of it, it visually disappears in a demonstration, in hunting it spends more time invisible than visible, this ghost has the ability to follow a character for a while."
+        android:text="It increases its speed when it passes near an electronic object."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
