@@ -80,5 +80,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnHantu.setOnClickListener {
             val hantu = Intent( this, Hantu_ENG_Activity::class.java)
             startActivity(hantu)}
+
+        val BtnGoryo = findViewById<AppCompatButton>(R.id.Goryos)
+        BtnGoryo.setOnClickListener {
+            val goryo = Intent( this, Goryo_ENG_Activity::class.java)
+            startActivity(goryo)}
     }
 }
