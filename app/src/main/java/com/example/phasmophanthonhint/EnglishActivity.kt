@@ -45,5 +45,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnMare.setOnClickListener {
             val mare = Intent( this, Mare_ENG_Activity::class.java)
             startActivity(mare)}
+
+        val BtnRevenant = findViewById<AppCompatButton>(R.id.Revenants)
+        BtnRevenant.setOnClickListener {
+            val revenant = Intent( this, Revenant_ENG_Activity::class.java)
+            startActivity(revenant)}
     }
 }
