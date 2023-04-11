@@ -85,5 +85,20 @@ class EnglishActivity : AppCompatActivity() {
         BtnGoryo.setOnClickListener {
             val goryo = Intent( this, Goryo_ENG_Activity::class.java)
             startActivity(goryo)}
+
+        val BtnMyling = findViewById<AppCompatButton>(R.id.Mylings)
+        BtnMyling.setOnClickListener {
+            val myling = Intent( this, Myling_ENG_Activity::class.java)
+            startActivity(myling)}
+
+        val BtnOnryo = findViewById<AppCompatButton>(R.id.Onryos)
+        BtnOnryo.setOnClickListener {
+            val onryo = Intent( this, Onryo_ENG_Activity::class.java)
+            startActivity(onryo)}
+
+        val BtnTwins = findViewById<AppCompatButton>(R.id.Gemeloss)
+        BtnTwins.setOnClickListener {
+            val twins = Intent( this, Twins_ENG_Activity::class.java)
+            startActivity(twins)}
     }
 }
