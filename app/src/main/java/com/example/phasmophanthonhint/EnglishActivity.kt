@@ -110,5 +110,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnObake.setOnClickListener {
             val obake = Intent( this, Obake_ENG_Activity::class.java)
             startActivity(obake)}
+
+        val BtnMimic = findViewById<AppCompatButton>(R.id.Mimicos)
+        BtnMimic.setOnClickListener {
+            val mimic = Intent( this, Mimic_ENG_Activity::class.java)
+            startActivity(mimic)}
     }
 }
