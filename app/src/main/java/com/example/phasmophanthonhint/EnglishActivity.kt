@@ -125,5 +125,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnDeogen.setOnClickListener {
             val deogen = Intent( this, Deogen_ENG_Activity::class.java)
             startActivity(deogen)}
+
+        val BtnThaye = findViewById<AppCompatButton>(R.id.Thayes)
+        BtnThaye.setOnClickListener {
+            val thaye = Intent( this, Thaye_ENG_Activity::class.java)
+            startActivity(thaye)}
     }
 }
