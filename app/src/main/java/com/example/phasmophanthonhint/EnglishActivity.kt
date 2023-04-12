@@ -115,5 +115,10 @@ class EnglishActivity : AppCompatActivity() {
         BtnMimic.setOnClickListener {
             val mimic = Intent( this, Mimic_ENG_Activity::class.java)
             startActivity(mimic)}
+
+        val BtnMoroi = findViewById<AppCompatButton>(R.id.Morois)
+        BtnMoroi.setOnClickListener {
+            val moroi = Intent( this, Moroi_ENG_Activity::class.java)
+            startActivity(moroi)}
     }
 }
