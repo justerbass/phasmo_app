@@ -175,7 +175,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="5dp"
         android:fontFamily="@font/pacifico"
         android:text="He will always give spirit box, if he talks to you through the spirit box or the parabolic microphone he curses you and will start to drain your sanity, to avoid the curse you must take a sanity pill or leave the ghost's room."
         android:textColor="@color/black"
