@@ -176,7 +176,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="5dp"
         android:fontFamily="@font/pacifico"
         android:text="It doesn't like heat sources, it can initiate attack after turning off a heat source."
         android:textColor="@color/black"

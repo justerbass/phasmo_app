@@ -164,7 +164,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="5dp"
         android:fontFamily="@font/pacifico"
         android:text="Imitates any other ghost in the game including their abilities, every 2 minutes you can change the ghost you are imitating, orbs will always appear even if it is not from your tests."
         android:textColor="@color/black"

@@ -178,7 +178,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="5dp"
         android:fontFamily="@font/pacifico"
         android:text="This ghost ages over time, making its attacks slower over time, this ghost does not speed up when hunting, if you are in range of the ghost it will age."
         android:textColor="@color/black"
