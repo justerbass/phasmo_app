@@ -42,7 +42,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Spirit"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -55,7 +55,7 @@
         android:text="Poltergeist"
         android:textSize="11sp"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -67,7 +67,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Mare"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -79,7 +79,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Demon"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -91,7 +91,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Yokai"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -103,7 +103,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Myling"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -115,7 +115,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Raiju"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -127,7 +127,7 @@
         app:layout_constraintStart_toStartOf="parent"
         android:text="Moroi"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -139,7 +139,7 @@
         app:layout_constraintStart_toEndOf="@id/Espiritus"
         android:text="Wraith"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -151,7 +151,7 @@
         app:layout_constraintStart_toEndOf="@id/Poltergeists"
         android:text="Banshee"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -163,7 +163,7 @@
         app:layout_constraintStart_toEndOf="@id/Pesadillas"
         android:text="Revenant"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -175,7 +175,7 @@
         app:layout_constraintStart_toEndOf="@id/Demonios"
         android:text="Yurei"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -187,7 +187,7 @@
         app:layout_constraintStart_toEndOf="@id/Yokais"
         android:text="Hantu"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -199,7 +199,7 @@
         app:layout_constraintStart_toEndOf="@id/Mylings"
         android:text="Onryo"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -211,7 +211,7 @@
         app:layout_constraintStart_toEndOf="@id/Raijus"
         android:text="Obake"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -223,7 +223,7 @@
         app:layout_constraintStart_toEndOf="@id/Morois"
         android:text="Deogen"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -235,7 +235,7 @@
         app:layout_constraintStart_toEndOf="@id/Espectros"
         android:text="Phanton"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -247,7 +247,7 @@
         app:layout_constraintStart_toEndOf="@id/Banshees"
         android:text="Jim"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -259,7 +259,7 @@
         app:layout_constraintStart_toEndOf="@id/Revenants"
         android:text="Shade"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -271,7 +271,7 @@
         app:layout_constraintStart_toEndOf="@id/Yureis"
         android:text="Oni"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -283,7 +283,7 @@
         app:layout_constraintStart_toEndOf="@id/Hantus"
         android:text="Goryo"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -295,7 +295,7 @@
         app:layout_constraintStart_toEndOf="@id/Onryos"
         android:text="The Twins"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -307,7 +307,7 @@
         app:layout_constraintStart_toEndOf="@id/Obakes"
         android:text="The Mimic"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
@@ -319,7 +319,7 @@
         app:layout_constraintStart_toEndOf="@id/Deogens"
         android:text="Thaye"
         android:fontFamily="@font/pacifico"
-        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
         android:background="@color/transparent"
         />
 
