@@ -190,7 +190,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="20dp"
         android:fontFamily="@font/pacifico"
-        android:text="He can't cut off the light in the house, he has a skill that lowers your sanity by 25% immediately."
+        android:text="It cannot cut off the electricity in the house, it has an ability that lowers your sanity by 25% immediately, as soon as it detects you it will accelerate to your location."
         android:textColor="@color/black"
         android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"

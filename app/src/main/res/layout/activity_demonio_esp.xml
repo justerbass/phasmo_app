@@ -48,7 +48,7 @@
             android:id="@+id/Prueba"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-
+            android:layout_marginTop="20dp"
             android:drawableStart="@drawable/ballot"
             android:drawablePadding="10dp"
             android:fontFamily="@font/homemade_regular"
@@ -154,7 +154,7 @@
             android:id="@+id/special"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="20dp"
             android:fontFamily="@font/homemade_regular"
             android:text="Característica Especial"
             android:textColor="@color/black"
@@ -164,7 +164,7 @@
             app:layout_constraintTop_toBottomOf="@id/speed_1" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
             android:fontFamily="@font/pacifico"

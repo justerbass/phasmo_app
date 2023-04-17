@@ -130,7 +130,7 @@
         android:layout_height="wrap_content"
         android:layout_marginEnd="5dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" fast speed, but"
+        android:text="Fast speed, but getting slower as he gets older in the game."
         android:textColor="@color/black"
         android:textSize="15sp"
         app:layout_constraintEnd_toEndOf="parent"
