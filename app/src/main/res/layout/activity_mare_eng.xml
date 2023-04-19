@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hoja"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/hoja">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".Eng.Mare_ENG_Activity">
 
     <TextView
@@ -43,6 +48,7 @@
         android:id="@+id/Prueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/ballot"
         android:drawablePadding="10dp"
         android:fontFamily="@font/homemade_regular"
@@ -98,6 +104,7 @@
         android:id="@+id/ataque"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/arrow"
         android:fontFamily="@font/homemade_regular"
         android:text=" Attack"
@@ -108,94 +115,58 @@
 
     <TextView
         android:id="@+id/ataque_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="under 50% sanity, with "
+        android:text="Under 50% sanity, with room without light and under 40% with room with light"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque" />
-
-    <TextView
-        android:id="@+id/ataque_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="room without light and"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_1" />
-
-    <TextView
-        android:id="@+id/ataque_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="under 40% with room"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_2" />
-
-    <TextView
-        android:id="@+id/ataque_4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="with light"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_3" />
 
     <TextView
         android:id="@+id/speed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/run"
         android:fontFamily="@font/homemade_regular"
         android:text=" Speed "
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/prueba_3" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_1" />
 
     <TextView
         android:id="@+id/speed_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text=" Normal Speed"
+        android:text=" Normal   Speed"
         android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/speed" />
 
     <TextView
         android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/homemade_regular"
         android:text="Special feature"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_4" />
+        app:layout_constraintTop_toBottomOf="@id/speed_1" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/pacifico"
         android:text="He generally tries to turn off the light in the house as well as in the room, they can turn off the lights as soon as they come on, they will never turn on a light."
         android:textColor="@color/black"
@@ -205,3 +176,4 @@
         app:layout_constraintTop_toBottomOf="@id/special" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

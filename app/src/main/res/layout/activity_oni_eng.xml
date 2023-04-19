@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hoja"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/hoja">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".Eng.Oni_ENG_Activity">
 
     <TextView
@@ -43,6 +48,7 @@
         android:id="@+id/Prueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/ballot"
         android:drawablePadding="10dp"
         android:fontFamily="@font/homemade_regular"
@@ -111,25 +117,13 @@
         android:id="@+id/ataque_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Under 50% sanity"
+        android:text="Under 50% average  sanity"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque" />
-
-    <TextView
-        android:id="@+id/ataque_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="average"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_1" />
 
     <TextView
         android:id="@+id/speed"
@@ -141,38 +135,38 @@
         android:text=" Speed "
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/prueba_3" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_1" />
 
     <TextView
         android:id="@+id/speed_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
         android:text=" Normal   Speed"
         android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/speed" />
 
     <TextView
         android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/homemade_regular"
         android:text="Special feature"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_2" />
+        app:layout_constraintTop_toBottomOf="@id/speed_1" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/pacifico"
         android:text="It manifests a lot, and knocks on various doors, it has a slow blinking which makes it more visible than the rest of the ghosts, it does not have a ghost ball event."
         android:textColor="@color/black"
@@ -182,3 +176,4 @@
         app:layout_constraintTop_toBottomOf="@id/special" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
