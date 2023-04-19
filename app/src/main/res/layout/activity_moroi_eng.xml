@@ -1,17 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/hoja"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/hoja">
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     tools:context=".Eng.Moroi_ENG_Activity">
 
     <TextView
         android:id="@+id/title_phanton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_margin="20dp"
         android:fontFamily="@font/homemade_regular"
         android:text=" Moroi"
         android:textColor="@color/black"
@@ -19,10 +24,31 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"
+        android:background="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="-25dp"
+        app:layout_constraintTop_toBottomOf="@id/title_phanton"
+        />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="6dp"
+        android:background="@color/black"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="-15dp"
+        app:layout_constraintTop_toBottomOf="@id/special"
+        />
+
     <TextView
         android:id="@+id/Prueba"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/ballot"
         android:drawablePadding="10dp"
         android:fontFamily="@font/homemade_regular"
@@ -78,6 +104,7 @@
         android:id="@+id/ataque"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/arrow"
         android:fontFamily="@font/homemade_regular"
         android:text=" Attack"
@@ -90,98 +117,63 @@
         android:id="@+id/ataque_1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="8dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="Under 45% sanity"
+        android:text="Under 45% average  sanity"
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/ataque" />
-
-    <TextView
-        android:id="@+id/ataque_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="average"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/ataque_1" />
 
     <TextView
         android:id="@+id/speed"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
         android:drawableStart="@drawable/run"
         android:fontFamily="@font/homemade_regular"
         android:text=" Speed "
         android:textColor="@color/black"
         android:textSize="25sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/prueba_3" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ataque_1" />
 
     <TextView
         android:id="@+id/speed_1"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/homemade_regular"
-        android:text="the less sanity you"
+        android:text="The less sanity you have, the faster the ghost will go."
         android:textColor="@color/black"
-        android:textSize="15sp"
+        android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/speed" />
-
-    <TextView
-        android:id="@+id/speed_2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="have, the faster"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/speed_1" />
-
-    <TextView
-        android:id="@+id/speed_3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="5dp"
-        android:fontFamily="@font/homemade_regular"
-        android:text="the ghost will go"
-        android:textColor="@color/black"
-        android:textSize="15sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/speed_2" />
 
     <TextView
         android:id="@+id/special"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="20dp"
         android:fontFamily="@font/homemade_regular"
         android:text="Special feature"
         android:textColor="@color/black"
         android:textSize="25sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/speed_3" />
+        app:layout_constraintTop_toBottomOf="@id/speed_1" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="5dp"
+        android:layout_marginStart="10dp"
         android:fontFamily="@font/pacifico"
         android:text="He will always give spirit box, if he talks to you through the spirit box or the parabolic microphone he curses you and will start to drain your sanity, to avoid the curse you must take a sanity pill or leave the ghost's room."
         android:textColor="@color/black"
-        android:textSize="21sp"
+        android:textSize="23sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/special" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
